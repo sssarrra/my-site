@@ -67,7 +67,7 @@ const menuItems = [
   },
 ];
 
-export default function App() {
+function App() {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
@@ -247,6 +247,11 @@ export default function App() {
     </div>
   );
 }
+
+const container = document.getElementById('root');
+const root = ReactDOM.createRoot(container);
+root.render(<App />);
+  
 </script>
     
 </body>
