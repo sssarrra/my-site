@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Site</title>
+  </head>
+  <body>
 import { useEffect, useState } from "react";
 
 const menuItems = [
@@ -233,3 +240,5 @@ export default function App() {
     </div>
   );
 }
+</body>
+</html>
