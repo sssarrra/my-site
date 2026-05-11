@@ -233,4 +233,25 @@
               {/* クロージング */}
               <section style={{ background:"#faf8f4", padding:"5rem 1.5rem", textAlign:"center" }}>
                 <div style={{ maxWidth:480, margin:"0 auto" }}>
-                  <div style={{ width:32, height:
+                  <div style={{ width:32, height:3, background:"#c9845a", borderRadius:2, margin:"0 auto 2rem" }} />
+          <p style={{ fontSize:16, fontWeight:400, lineHeight:2.4, letterSpacing:"0.06em", color:"#2a2018" }}>
+            どれも簡単に作れるものばかりです。<br />
+            特別な日のごはんにぜひお試しください。
+          </p>
+        </div>
+      </section>
+
+      {/* ── Footer ── */}
+      <footer style={{ textAlign:"center", padding:"2rem 1rem", background:"#fff", borderTop:"1px solid #e8e2d6" }}>
+        <p style={{ fontSize:12, letterSpacing:"0.15em", color:"#b0a090", fontWeight:300 }}>お祝いごとにおすすめごはん</p>
+      </footer>
+    </div>
+  );
+}
+
+const container = document.getElementById('root');
+const root = ReactDOM.createRoot(container);
+root.render(<App />);
+</script>
+</body>
+</html>
