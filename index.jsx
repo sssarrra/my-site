@@ -5,6 +5,8 @@
     <title>My Site</title>
   </head>
   <body>
+<script type="text/babel">
+  
 import { useEffect, useState } from "react";
 
 const menuItems = [
@@ -240,5 +242,7 @@ export default function App() {
     </div>
   );
 }
+</script>
+    
 </body>
 </html>
