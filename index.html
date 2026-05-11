@@ -3,12 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <title>My Site</title>
+
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
   </head>
   <body>
 <script type="text/babel">
-  
-import { useEffect, useState } from "react";
 
+const { useEffect, useState } = React;
+  
 const menuItems = [
   {
     id: "caesar",
