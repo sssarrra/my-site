@@ -1,0 +1,12 @@
+{
+  "name": "my-site",
+  "version": "1.0.0",
+  "dependencies": {
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  }
+}
